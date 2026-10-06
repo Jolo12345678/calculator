@@ -1,0 +1,85 @@
+.App {
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #ffffff;
+  color: #000000;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.Header {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0066cc;
+  margin-bottom: 25px;
+  padding: 20px;
+}
+
+.Calculator {
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: #000000;
+  border: 2px solid #0066cc;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 102, 204, 0.3);
+}
+
+.CalcDisplay {
+  border: 2px solid #0066cc;
+  border-radius: 8px;
+  height: 50px;
+  font-size: 2em;
+  padding: 5px 10px;
+  text-align: right;
+  background-color: #ffffff;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.CalcButtons {
+  display: grid;
+  gap: 6px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.CalcButton {
+  justify-content: center;
+  border: 1px solid #0066cc;
+  border-radius: 6px;
+  font-size: 2em;
+  background-color: #bde7ff;
+  color: #000000;
+  padding: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.CalcButton:hover {
+  background-color: #66c2ff;
+}
+
+.CalcButton:active {
+  background-color: #0066cc;
+  color: #ffffff;
+}
+
+.ClearButton {
+  justify-content: center;
+  border: 1px solid #0088ff;
+  border-radius: 6px;
+  font-size: 2em;
+  background-color: #0066cc;
+  color: #ffffff;
+  padding: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.ClearButton:hover {
+  background-color: #0088ff;
+}
+
+.ClearButton:active {
+  background-color: #003d80;
+}
